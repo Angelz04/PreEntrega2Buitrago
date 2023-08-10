@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+      <div class="container">
+        <a class="navbar-brand " href="../index.html"><img src="../img/valorantLogo.png" alt="Logo"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarS">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="../pages/agentes.html" class="nav-link">Agentes</a></li>
+            <li class="nav-item"><a href="../pages/arsenal.html" class="nav-link">Arsenal</a></li>
+            <li class="nav-item"><a href="../pages/mapas.html" class="nav-link">Mapas</a></li>
+            <li class="nav-item"><a href="../pages/ranking.html" class="nav-link">Skins</a></li>
+            <li class="nav-item"><a href="../pages/skins.html" class="nav-link">Ranking</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+  <!--HomePage-->
+    <section class="video-section">
+      <video class="video-background" autoplay muted loop>
+        <source src="../img/mainVideo.mp4" type="video/mp4"/>
+      </video>
+      <div class="video-content">
+        <img src="../img/Valo.png" alt="ValorantNombre"/>
+        <h3>EL TACTICAL SHOOTER DEL MOMENTO</h3>
+        <a class="mainBtn" href="#inicio"><span>EXPLORAR</span><i></i></a>
+      </div>
+    </section>
+    <!--Acerca De-->
+    <section class="about" id="inicio">
+      <h1 class="titulo">DESAFIA LOS LÍMITES</h1>
+      <div class="about-flex">
+        <div class="about1">
+          <h2>AVANZA</h2>
+          <p>Valorant es un FPS táctico y competitivo de Riot Games. Los jugadores forman equipos de cinco, seleccionan agentes con habilidades únicas y se enfrentan en partida
+          en línea. Combina disparos precisos con estrategia de equipo, ofreciendo un entorno desafiante y emocionante para competir en un entorno competitivo en línea.</p>
+          <a class="mainBtn2" href="#"><span>Conocer más</span><i></i></a>
+        </div>
+        <div class="about2">
+          <img src="../img/info1.gif" alt="about-gif"/>
+        </div>
+      </div>
+    </section>
+    <!--Roles--->
+    <section class="agentes">
+      <div class="ag-flex">
+        <div class="agentes-img">
+          <img src="../img/agents.png" alt="agents"/>
+        </div>
+        <div class="agentes-info">
+          <h1>TU CREAS EL ESTILO</h1>
+          <p>Valorant ofrece una amplia variedad de agentes, cada uno con sus propias habilidades y estilos de juego únicos. Con más de 23 agentes disponibles,
+          los jugadores tienen la opción de elegir entre una diversa gama de personajes, desde expertos en francotiradores hasta maestros del control de áreas y curanderos hábiles. 
+          Cada agente posee cuatro habilidades distintas: una habilidad única, una habilidad secundaria, una habilidad especial y una habilidad definitiva. Esta variedad de agentes permite a los jugadores adaptarse a diferentes situaciones, estrategias y roles dentro del equipo.
+          La elección y combinación estratégica de agentes es fundamental para el éxito en las partidas de Valorant, creando un juego dinámico y emocionante en cada encuentro.</p>
+          <div class="roles-img">
+            <img src="../img/controlador.png" alt="controlador"/>
+            <img src="../img/duelista.png" alt="duelista"/>
+            <img src="../img/iniciador.png" alt="iniciador"/>
+            <img src="../img/sentinela.png" alt="sentinela"/>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p class="footer-text">© 2023 WIKI VALORANT | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

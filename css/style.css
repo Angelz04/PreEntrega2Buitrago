@@ -1,0 +1,347 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f1923 ;
+    overflow-x: hidden;
+  }
+  
+  /* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.custom-navbar {
+  background-color: #333;
+  color: white;
+}
+
+.navbar-brand img {
+  width: 120px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.nav-link  {
+  color: #fff;
+  text-decoration: none;
+  margin: 1em;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  align-content: flex-end;
+}
+
+.nav-link:hover {
+  background-color: #ff1867;
+}
+
+  /*Landing*/
+  .video-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
+  .video-content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .video-content img {
+    width: 80%;
+
+  }
+  
+  .video-content h3 {
+    font-size: 1em;
+    margin: 0;
+    margin-bottom: 5em;
+  }
+
+  /*Boton 1*/
+
+.mainBtn{
+  position: relative;
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+
+.mainBtn:hover{
+  background: #ff1867 ;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px #ff1867 ;
+
+}
+
+.mainBtn::before{
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: transparent;
+}
+
+.mainBtn span{
+  position: relative;
+  z-index: 1;
+}
+
+/* About Us*/
+
+.about{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.titulo{
+  color: #fff ;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.6em;
+  margin-bottom: 2.5em; 
+}
+
+.about-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.about1{
+  color: #fff;
+  text-align: start;
+  font-weight: 400;
+  margin-left: 5em;
+}
+.about1 h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.about1 p{
+  margin-bottom: 1.8em;
+}
+
+/*Boton 2*/
+
+.mainBtn2{
+  position: relative;
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+
+.mainBtn2:hover{
+  background: cadetblue ;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px cadetblue ;
+
+}
+
+.mainBtn2::before{
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: transparent;
+}
+
+.mainBtn2 span{
+  position: relative;
+  z-index: 1;
+}
+
+/*caja2 gif*/
+
+.about2{
+margin-left: 4.5em;
+margin-right: 4.5em;
+}
+
+
+.about2 img{
+  width: 1200px;
+  max-width: 100%;
+  box-shadow: 0 0 35px cadetblue
+}
+
+/*main*/
+
+.ag-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.agentes-img{
+  margin-left: 1.5em;
+}
+
+.agentes-img img{
+  width: 3600px;
+  max-width: 100%;
+}
+
+.agentes-info{
+  color: #fff;
+  text-align: start;
+  font-weight: 500;
+  margin-left: 2em;
+  margin-right: 80px;
+  font-weight: 300;
+}
+
+.agentes-info h1{
+  font-size: 2em;
+  margin-bottom: 2em;
+  font-weight: 600;
+}
+
+.roles-img{
+display: flex;
+justify-content: space-between ;
+margin-top: 3em;
+}
+
+.roles-img img{
+  width: 4em;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+/*Agentes*/
+
+.galeria > img{
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 30px #000;
+}
+.galeria img:hover{
+  box-shadow: 0 0 35px rgb(136, 25, 25)
+}
+.galeria{
+  margin: 5em;
+  display: grid;
+  grid-template-columns:
+  repeat(
+    auto-fit,
+    minmax(150px, 1fr)
+  );
+  gap: 1em;
+}
+
+.galeria-agentes h1{
+  color: white;
+  margin-top: 3.3em;
+  text-align: center;
+  font-weight: 600;
+}
+
+/*MEDIA QUERIES INDEX MOVIL*/
+
+@media (max-width: 768px) {
+  .video-section {
+    height: 100vh; 
+  }
+  .video-content{
+    margin-top: 1em;
+  }
+  .video-content img{
+    width: 100%;
+  }
+  .video-content h3 {
+    font-size: 1em; 
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .titulo{
+    margin-bottom: 2.5em;
+  }
+  .about-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .about1{
+    text-align: center;
+    margin: 1em;
+  }
+  .about2{
+    align-items: center;
+    justify-content: center;
+  }
+  .about2 img{
+    margin-top: 2em;
+  }
+  .ag-flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .agentes-img{
+    align-items: center;
+    margin: 1em;
+  }
+  .agentes-info{
+    text-align: center;
+    margin: 1em;
+  }
+  .roles-img{
+    margin: 1.5em;
+    align-items: center;
+  }
+}
+
