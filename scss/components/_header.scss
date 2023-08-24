@@ -1,0 +1,25 @@
+nav{
+    background-color: #333;
+    color: white;
+    .navbar-brand{
+        img {
+            width: 120px;
+            margin-right: 10px;
+            padding: 0;
+    }
+}
+    .collapse{
+        .nav-link {
+            color: #fff;
+            text-decoration: none;
+            margin: 1em;
+            font-size: 1em;
+            font-weight: 600;
+            padding: 8px 12px;
+            border-radius: 4px;
+            align-content: flex-end;
+            &:hover {background-color: #ff1867;
+            } }
+    }
+
+}

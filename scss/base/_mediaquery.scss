@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    .video-section{
+        height: 100vh;      
+        .video-content{
+            margin-top: 1em;
+            img{
+                width: 100%;
+            }
+            h3{
+                font-size: 1em;
+                margin: 2em;
+                margin-bottom: 2em;
+            }
+        }
+    }
+    .about{
+        .about-flex{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .about1{
+                text-align: center;
+                margin: 1em; 
+            }
+            .about2{
+                align-items: center;
+                justify-content: center;  
+                img{
+                    margin-top: 2em;
+                }
+            }
+        }
+    }
+    .agentes{
+        .ag-flex{
+            display: flex;
+            flex-wrap: wrap;
+            .agentes-img{
+                align-items: center;
+                margin: 1em;
+                img{
+                    width: 3600px;
+                    max-width: 100%;
+                }
+            }
+            .agentes-info{
+                text-align: center;
+                margin: 1em;
+                    .roles-img{
+                        margin: 1.5em;
+                        align-items: center;                   
+                }  
+            }
+        }
+    }
+}
