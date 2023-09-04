@@ -161,7 +161,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1em;
-  margin-bottom: 6em; }
+  margin-bottom: 6em;
+  justify-content: center;
+  align-items: center; }
   .galeria-arsenal .arsenal img {
     border-radius: 8px;
     width: 300px;
@@ -195,7 +197,7 @@
   .map-galery h2 {
     font-weight: 600; }
   .map-galery .caja-mapas img {
-    width: 42%;
+    width: 60%;
     height: auto;
     margin: 3em;
     box-shadow: 0 0 35px #5f99db; }
@@ -216,9 +218,15 @@
   .carouselSkin1 .carousel-inner .carousel-item img, .carouselSkin2 .carousel-inner .carousel-item img, .carouselSkin3 .carousel-inner .carousel-item img {
     margin: 0 auto;
     margin-top: 5em;
-    margin-bottom: 8em;
-    width: 40%;
+    margin-bottom: 10em;
+    max-width: 95%;
+    height: auto;
     box-shadow: 0px 0px 30px #4b2a53; }
+  .carouselSkin1 .carousel-inner .carousel-item .carousel-caption h5, .carouselSkin2 .carousel-inner .carousel-item .carousel-caption h5, .carouselSkin3 .carousel-inner .carousel-item .carousel-caption h5 {
+    margin-top: 3em;
+    font-size: 1.6em; }
+  .carouselSkin1 .carousel-inner .carousel-item .carousel-caption p, .carouselSkin2 .carousel-inner .carousel-item .carousel-caption p, .carouselSkin3 .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 1.2em; }
 
 .carouselSkin2 h2 {
   color: #af6c08; }

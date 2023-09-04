@@ -210,6 +210,8 @@
         );
         gap: 1em;
         margin-bottom: 6em;
+        justify-content: center;
+        align-items: center;
         img{
             border-radius: 8px;
             width: 300px;
@@ -252,7 +254,7 @@
     }
     .caja-mapas{
         img{
-            width: 42%;
+            width: 60%;
             height: auto;
             margin: 3em;
             box-shadow: 0 0 35px rgb(95, 153, 219)
@@ -282,9 +284,19 @@
             img{
                 margin: 0 auto;
                 margin-top: 5em;
-                margin-bottom: 8em;
-                width: 40%;
+                margin-bottom: 10em;
+                max-width: 95%;
+                height: auto;
                 box-shadow: 0px 0px 30px #4b2a53;
+            }
+            .carousel-caption{
+                h5{
+                    margin-top: 3em;
+                    font-size: 1.6em;
+                }
+                p{
+                    font-size: 1.2em;
+                }
             }
             }
         }
